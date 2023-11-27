@@ -1,7 +1,179 @@
-/*
-white: #f7f9f9;
-light-blue: #2081c3;
-dark-blue: #0a2c42;
-grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul {
+    display: flex;
+    background-color: #2081c3;
+    height: 8vh;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  li {
+  }
+
+  nav a {
+    color: #f7f9f9;
+    font-size: 15px;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 0px 35px;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    color: yellow;
+  }
+  
+  .home {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  img {
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+  }
+  
+  .buttons {
+    padding-bottom: 70px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .menu {
+
+  }
+  
+  .buttonCheck {
+    background-color: #2081c3;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    height: fit-content;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttonCheck:hover {
+    background-color: #196a9f;
+  }
+  
+  .buttonRandom {
+    background-color: #2081c3;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .buttonRandom:hover {
+    background-color: #196a9f;
+  }
+  
+   .container {
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  .container-random-beer {
+    display: flex;
+  }
+  
+  .imgbeers {
+    width: 100px;
+    max-width: 50px;
+    height: auto;
+  }
+  
+  /* here is style for random beer */
+  .img-random-beer {
+    width: 100px;
+  }
+
+  .boxbeer {
+    margin-left: 50px;
+  }
+  
+  .body-random-beer {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+  }
+  
+  .body-random-beer h2 {
+    margin-top: 20px;
+  }
+  
+  .body-random-beer h4 {
+    margin-top: 20px;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #0a2c42;
+    padding-left: 10px;
+    bottom: 0;
+    color: #f7f9f9;
+    height: 30px;
+    padding-top: 10px;
+    position: fixed;
+  }
+  
+  
+  #allBeers {
+    display: flex;
+    width : 450px;
+    margin: 25px;
+  }
+  
+  #allBeers img {   
+    display: block;
+    max-height:150px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+  }
+  
+  #description {
+    display: flex;
+    flex-flow: column  nowrap;
+    text-align: justify; 
+  }
+  
+  #description h1{ 
+    font-size: 20px;
+    color: black;
+  }
+
+  #description h2{ 
+    font-size: 13px;
+    color: lightgrey;
+    margin-bottom: 20px;
+  }
+    
+  #description p{ 
+    font-size: 13px;
+    color: black;
+  }
+
+  
